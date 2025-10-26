@@ -1,7 +1,9 @@
 package org.springexample.repository.imp;
 
 import org.springexample.repository.OwnerRepository;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class OwnerRepositoryImp implements OwnerRepository {
     public OwnerRepositoryImp() {
         System.out.println("OwnerRepositoryImpl bean created.");
