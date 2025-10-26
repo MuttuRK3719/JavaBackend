@@ -3,14 +3,20 @@ package org.springexample.service.imp;
 import org.springexample.repository.OwnerRepository;
 import org.springexample.service.OwnerService;
 
-public class OwnerServiceImp1 implements OwnerService {
+public class OwnerServiceImp implements OwnerService {
     private OwnerRepository ownerRepository;
     private int ownerId;
 
-    public OwnerServiceImp1(OwnerRepository ownerRepository, int ownerId) {
-        this.ownerRepository = ownerRepository;
-        this.ownerId = ownerId;
+    public OwnerServiceImp() {
         System.out.println("OwnerServiceImpl bean created.");
+    }
+
+    public void setOwnerRepository(OwnerRepository ownerRepository) {
+        this.ownerRepository = ownerRepository;
+    }
+
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
     @Override
