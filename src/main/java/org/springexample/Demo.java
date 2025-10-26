@@ -8,8 +8,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Demo {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-//        OwnerService ownerService = (OwnerService) context.getBean(OwnerService.class);
-//        OwnerService ownerService = (OwnerService) context.getBean("ownerService");
         OwnerService ownerService = context.getBean("ownerService", OwnerService.class);
         System.out.println(ownerService.findOwner());
     }
