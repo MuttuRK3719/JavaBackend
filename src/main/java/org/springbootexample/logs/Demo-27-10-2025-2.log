@@ -1,0 +1,6 @@
+2025-10-27T14:16:29.190+05:30  INFO 11012 --- [Demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T14:16:29.204+05:30  INFO 11012 --- [Demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T14:28:30.103+05:30  INFO 19784 --- [Demo] [main] org.springbootexample.Demo               : Starting Demo using Java 23.0.1 with PID 19784 (C:\Users\Dell\OneDrive\Desktop\spingboot\BLBackEnd\target\classes started by Dell in C:\Users\Dell\OneDrive\Desktop\spingboot\BLBackEnd)
+2025-10-27T14:28:30.107+05:30  INFO 19784 --- [Demo] [main] org.springbootexample.Demo               : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T14:28:31.896+05:30  INFO 19784 --- [Demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T14:28:31.919+05:30  INFO 19784 --- [Demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]

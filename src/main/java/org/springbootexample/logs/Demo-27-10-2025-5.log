@@ -1,0 +1,6 @@
+2025-10-27T14:30:50.783+05:30  INFO 6056 --- [Demo] [main] org.springbootexample.Demo               : Starting Demo using Java 23.0.1 with PID 6056 (C:\Users\Dell\OneDrive\Desktop\spingboot\BLBackEnd\target\classes started by Dell in C:\Users\Dell\OneDrive\Desktop\spingboot\BLBackEnd)
+2025-10-27T14:30:50.793+05:30  INFO 6056 --- [Demo] [main] org.springbootexample.Demo               : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T14:30:52.236+05:30  INFO 6056 --- [Demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T14:30:52.254+05:30  INFO 6056 --- [Demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T14:30:52.255+05:30  INFO 6056 --- [Demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T14:30:52.317+05:30  INFO 6056 --- [Demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext

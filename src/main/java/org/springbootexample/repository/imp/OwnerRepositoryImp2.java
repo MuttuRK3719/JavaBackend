@@ -1,13 +1,14 @@
-package org.springbootexample.repository;
+package org.springbootexample.repository.imp;
 
 import org.springbootexample.exception.OwnerNotFoundException;
+import org.springbootexample.repository.OwnerRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
-@Profile("")
+@Profile("local")
 @Repository
-public class OwnerRepositoryImp2 implements OwnerRepository{
+public class OwnerRepositoryImp2 implements OwnerRepository {
     @Value("${owner.found}")
     private String ownerFound;
     public OwnerRepositoryImp2() {

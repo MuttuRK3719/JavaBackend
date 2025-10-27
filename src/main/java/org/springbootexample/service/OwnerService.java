@@ -1,4 +1,9 @@
 package org.springbootexample.service;
 
-public class OwnerService {
+import org.springbootexample.exception.OwnerNotFoundException;
+
+public interface OwnerService {
+    String findOwner() throws OwnerNotFoundException;
+
+    void modifyOwnerId(int ownerId);
 }

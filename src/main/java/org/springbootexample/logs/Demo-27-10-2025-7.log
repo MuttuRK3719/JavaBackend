@@ -1,0 +1,5 @@
+2025-10-27T14:31:00.583+05:30  INFO 6056 --- [Demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T14:31:00.595+05:30  INFO 6056 --- [Demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T14:31:07.401+05:30  INFO 1368 --- [Demo] [main] org.springbootexample.Demo               : Starting Demo using Java 23.0.1 with PID 1368 (C:\Users\Dell\OneDrive\Desktop\spingboot\BLBackEnd\target\classes started by Dell in C:\Users\Dell\OneDrive\Desktop\spingboot\BLBackEnd)
+2025-10-27T14:31:07.406+05:30  INFO 1368 --- [Demo] [main] org.springbootexample.Demo               : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T14:31:07.679+05:30  WARN 1368 --- [Demo] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: I/O failure while processing configuration class [org.springbootexample.Demo]
