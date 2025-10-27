@@ -13,8 +13,6 @@ public class Demo {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         OwnerService ownerService = context.getBean("ownerServiceImp", OwnerService.class);
         OwnerRepository ownerRepository=context.getBean("ownerRepositoryImp",OwnerRepository.class);
-        ((OwnerServiceImp)ownerService).setOwnerId(10);
-        ((OwnerServiceImp) ownerService).setOwnerRepository(ownerRepository);
         System.out.println(ownerService.findOwner());
     }
 }
