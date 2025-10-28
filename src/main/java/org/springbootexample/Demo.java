@@ -12,13 +12,13 @@ import org.springframework.context.annotation.PropertySource;
 import java.util.Scanner;
 
 @PropertySource("classpath:message.properties")
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "org.springbootexample")
 public class Demo implements CommandLineRunner {
     @Autowired
     private OwnerService ownerService;
     private static final Logger LOGGER = LoggerFactory.getLogger(Demo.class);
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         SpringApplication.run(Demo.class, args);
     }
 

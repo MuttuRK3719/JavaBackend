@@ -16,6 +16,6 @@ public class OwnerRepositoryImp2 implements OwnerRepository {
     }
     @Override
     public String findOwner(int ownerId) throws OwnerNotFoundException {
-        return String.format(ownerFound, ownerId);
+        return String.format(ownerFound+"Local", ownerId);
     }
 }
